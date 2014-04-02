@@ -1,0 +1,23 @@
+/* panel.css */
+
+.panel {
+  background: #000;
+  top: 5px;
+  left: -20px;
+  height: 15px;
+  width: 100%;
+  position: fixed;
+  opacity: 0.70;
+  text-align: right;
+  padding: 10px;
+  padding-right: 600px;
+  word-spacing: 30px;
+  display: block;
+  margin-right: 30px;
+}
+
+.options, .welcome {
+	font-weight: bold;
+	color: #CCD;
+	display: inline;
+}

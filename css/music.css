@@ -1,0 +1,38 @@
+#container {
+	float: right;
+	width: 160px;
+	height: 300px;
+	background: #111;
+	border: 1px solid #333;
+	margin-top: -100px;
+	margin-right: 50px;
+}
+
+#songs {
+    width: 160px;  
+    height: 25px; 
+    border-bottom: 4px solid #333;  
+    font-size: 18px;  
+    text-align: center;
+    padding-top: 2px;
+    color: #CCC;
+}
+
+#playlist {
+	width: 150px;
+	height: 500px;
+	color: #fff;
+	margin-right: 80px;
+	overflow: hidden;
+}
+
+.song {
+	border-bottom: 1px dotted #fff;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+audio {
+	margin-left: auto;
+	margin-right: auto;
+}

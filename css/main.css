@@ -1,0 +1,56 @@
+body {
+	font: normal 12px/14px Verdana, Geneva, sans-serif;
+	color: #333;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.playground {
+	opacity: 0.85;
+	margin-top: 50px;
+	width: 800px;
+	margin-left: 240px;
+	background: url("../images/page-bg.png") repeat-y left top; 
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/page-bg.png', sizingMethod='scale');
+	padding: 15px;
+}
+
+.page-wrapper {
+	float: left;
+	width: 740px;
+	display: inline;
+	margin-left: 30px;
+	margin-top: 30px;
+	position: fixed;
+}
+
+h2 {
+	cursor: pointer;
+	padding: 5px;
+	margin-right: 25px;
+}
+
+a {
+	font-weight: bold;
+	color: white;
+}
+
+.app {
+	display: block;
+	margin-top: 100px;
+}
+
+#LoadMe {
+	margin-top: 100px;
+	margin-left: 150px;
+}
